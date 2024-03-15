@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js" // Ajout du script "start"
   },
   "repository": {
     "type": "git",
@@ -19,8 +20,5 @@
   "homepage": "https://github.com/RaphaelSve/AchiStarTechnologies#readme",
   "dependencies": {
     "express": "^4.18.3"
-  }
-  "scripts": {
-    "start": "node app.js"
   }
 }
