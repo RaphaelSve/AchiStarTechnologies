@@ -38,7 +38,7 @@ pipeline {
             steps {
                 script {
                     docker.image(env.DOCKER_IMAGE_NAME).pull()
-                    docker.image(env.DOCKER_IMAGE_NAME).run('-p 3000:3000', '')
+                    docker.image(env.DOCKER_IMAGE_NAME).run('-p 8080:3000', '')
                 }
             }
         }
